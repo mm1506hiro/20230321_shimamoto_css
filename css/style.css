@@ -59,7 +59,7 @@ img{
     display: block;
     /*width: 100%;*/
     height: auto;
-    transform: translate(50%);
+    transform: translate(50%,25px);
 }
 img {
     width: 50%;
@@ -72,13 +72,14 @@ img {
     height:150px;
     background-color:#00277E;
     margin-left: 0;
-    top: 60%;
+    bottom: -100px;
     z-index: -10;
 }
 
 .catch-copy {
     position: absolute;
     margin-left: 0;
-    top: 50%;
+    bottom: 45px;
+    /*top: 80%;*/
     font-size: 50px;
 }
